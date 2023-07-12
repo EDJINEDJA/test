@@ -29,4 +29,9 @@ class Outils:
             return reset
         except:
             print("error contact the dev, or make sure your enter right data")
-        
+            
+    def mult(self,config):
+        try:
+            reset =  config["a"] * config["b"] 
+        except:
+            print("error contact the dev, or make sure your enter right data")
